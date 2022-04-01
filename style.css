@@ -59,6 +59,14 @@ button {
     padding: 10px;
     border-radius: 20px;
     mix-blend-mode: screen;
+    cursor: pointer;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+button:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: transparent;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
 }
 
 @media only screen and (max-width: 500px) {
